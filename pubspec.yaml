@@ -1,0 +1,21 @@
+name: task_manager
+description: Simple Task Manager using Flutter + Firebase
+publish_to: "none"
+version: 1.0.0+1
+environment:
+  sdk: ">=2.18.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  firebase_core: ^2.32.0
+  firebase_auth: ^4.19.6  # Było 4.5.0 -> MUSI być nowsze
+  cloud_firestore: ^4.17.5 # Było 4.7.0 -> MUSI być nowsze
+  provider: ^6.1.2
+  
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
